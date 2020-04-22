@@ -77,6 +77,7 @@ All `params` and `source` configuration of the original resource will be
 respected.
 
 
-### `out`: No-op.
+### `out`: Push any changes back to the same repository/branch
 
-*Not implemented.*
+If you use this resource as a `put` step it'll just commit and push all changes in the repo.
+
